@@ -1,6 +1,7 @@
+import { FaRegHandRock } from "react-icons/fa";
 const DaysiNav = () => {
     return (
-        <div>
+        <div className="md:mx-5 lg:mx-12 p-5">
             <div className="navbar bg-base-100">
                 <div className="navbar-start">
                     <div className="dropdown">
@@ -32,7 +33,7 @@ const DaysiNav = () => {
                             <li><a>Item 3</a></li>
                         </ul>
                     </div>
-                    <a className="btn btn-ghost text-xl">daisyUI</a>
+                    <a className="btn btn-ghost text-xl bg-gray-500 text-white mx-5">Boddys GYM <FaRegHandRock></FaRegHandRock></a>
                 </div>
                 <div className="navbar-center hidden lg:flex">
                     <ul className="menu menu-horizontal px-1">
